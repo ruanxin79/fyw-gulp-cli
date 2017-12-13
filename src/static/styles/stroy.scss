@@ -1,0 +1,88 @@
+.stroy{
+    padding: 0 36px;
+    margin-top: 61px;
+    textarea{
+        width: 678px;
+        height: 366px;
+        border-radius: 10px;
+        background-color: #f5f5f5;
+        padding: 32px 31px 0 25px;
+        font-size: 30px;
+    }
+   
+    textarea::-webkit-input-placeholder { /* WebKit browsers */
+        color:#a3abb8;font-size:30px;font-family: PingFang-SC;   
+    }
+    textarea:-moz-placeholder { /* Mozilla Firefox 4 to 18 */    
+    color:#a3abb8;font-size:30px;font-family: PingFang-SC;
+    }
+    textarea::-moz-placeholder { /* Mozilla Firefox 19+ */
+        color:#a3abb8;font-size:30px;font-family: PingFang-SC;    
+    }
+    textarea:-ms-input-placeholder { /* Internet Explorer 10+ */
+        color:#a3abb8;font-size:30px;font-family: PingFang-SC;    
+    }
+    .add{
+        float: left;
+        width: 64px;
+        height: 64px;
+        border-radius: 10px;
+        background-color: #ffffff;
+        border: solid 4px #e1e1e6;
+        position: relative;
+        overflow: hidden;
+        span{
+            display: block;
+            position: absolute;
+        }
+        .line1{
+            width: 27px;
+            height: 1px;
+            background-color: #bbc3d0;
+            border: solid 1px #bbc3d0;
+            top: 25px;
+            left: 13px;
+        }
+        .line2{
+            width: 1px;
+            height: 26px;
+            background-color: #bbc3d0;
+            border: solid 1px #bbc3d0;
+            left: 26px;
+            top: 13px;
+        }
+        input{
+            width: 64px;
+            height: 64px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;
+
+        }
+    }
+    .addimg{
+        // width: 118px;
+        float: left;
+        height: 64px;
+        font-family: PingFang-SC;
+        font-size: 24px;
+        line-height: 64px;
+        text-align: left;
+        color: #a3abb8;
+        margin-left: 15px;
+    }
+    button{
+        float: right;
+        height: 31px;
+        opacity: 0.3;
+        font-family: PingFang-SC;
+        font-size: 32px;
+        font-weight: bold;
+        text-align: center;
+        color: rgba(66, 189, 85, 0.3);
+        line-height: 31px;
+        padding: 0;
+        margin-top: 10px;
+    }
+}

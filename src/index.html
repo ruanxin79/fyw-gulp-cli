@@ -1,0 +1,40 @@
+@@include('meta.html')
+    <link rel="stylesheet" href="/static/css/index.css">
+    <script src="/static/js/index.js"></script>
+    <title>首页</title>
+  </head>
+  <body>
+    <div class="young">
+      <div class="img"><img src="" alt=""></div>
+      <button class="btn1">参与分享</button>
+      <button class="btn2">查看我的分享</button>
+    </div>
+    <div class="stroy">
+      <span class="line1"></span><h2>看看大家的分享</h2><span class="line2"></span>
+      <div class="personstroy">
+        <div class="personstroy-top">
+          <img src="" alt="">
+        </div>
+        <div class="personstroy-bottom">
+          <p>攻读cpa的那些日子...攻读cpa的那些日子...攻读cpa的那些日子...</p>
+          <span class="person">唐宁/</span>
+          <span class="temps">2017-12-11</span>
+        </div>
+      </div>
+    </div>
+    <embed src="/static/music/bgm.mp3" autostart="true"  loop="true" hidden="true"></embed>
+    @@include('footer.html')
+    <script>
+      $.ajax({
+        url:'/api/trueExam.do?id=ffff-1513043590428-8433354-0015',
+        type: 'POST',
+        success: function(res){
+          console.log(res)
+        },
+        error: function(err){
+          console.log(err)
+        }
+      })
+    </script>
+  </body>
+</html>

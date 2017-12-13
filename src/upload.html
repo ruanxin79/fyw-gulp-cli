@@ -1,0 +1,62 @@
+@@include('meta.html')
+<link rel="stylesheet" href="/static/css/upload.css">
+<title>首页</title>
+</head>
+<body>
+  <div class="upload">
+    <ul>
+      <li>
+        <div class="upload-top">
+          <div class="upload-l">
+            <span class="portraits"><img src="" alt=""></span> 
+            <span class="writer">唐宁</span>
+          </div>
+          <div class="upload-r">
+            <span class="time">2017-12-11</span>
+          </div>
+        </div>
+        <div class="upload-mid">
+          这是一段文字...
+        </div>
+        <div class="upload-bott"><img src="" alt=""></div>
+      </li>
+    </ul>
+    <div class="look">
+        <span class="activity">查看活动</span><span class="fenxiang">分享故事</span>
+    </div>
+  </div>
+@@include('footer.html')
+<script type="text/template">
+  <% for(var i=0;i< items.length;i++){%>
+      <li>
+          <div class="upload-top">
+              <div class="upload-l">
+                  <span class="portraits"><img src="" alt=""></span> 
+                  <span class="writer">唐宁</span>
+              </div>
+              <div class="upload-r">
+                  <span class="time">2017-12-11</span>
+              </div>
+          </div>
+          <div class="upload-mid">
+              这是一段文字...
+          </div>
+          <div class="upload-bott"><img src="" alt=""></div>
+      </li>
+  <%}%>
+</script>
+<script src="/static/js/upload.js"></script>
+<script>
+  $.ajax({
+    url:'/api/trueExam.do?id=ffff-1513043590428-8433354-0015',
+    type: 'POST',
+    success: function(res){
+      console.log(res)
+    },
+    error: function(err){
+      console.log(err)
+    }
+  })
+</script>
+</body>
+</html>

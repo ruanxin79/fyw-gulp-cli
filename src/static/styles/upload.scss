@@ -1,0 +1,108 @@
+    .upload{
+        width: 750px;
+        height: 553px;
+        border-radius: 10px;
+        background-color: #ffffff;
+        ul{
+            li{
+                .upload-top{
+                    height: 60px;
+                    line-height: 60px;
+                    padding: 0 37px 0 32px;
+                    margin-bottom: 16px;
+                    span{
+                        display: inline-block;
+                    }
+                    .upload-l{
+                        // font-size: 0;
+                        float: left;
+                        .portraits{
+                            width: 60px;
+                            height: 60px;
+                            background-color: #b2b2b2;
+                            border-radius: 50%;
+                            overflow: hidden;
+                            vertical-align: middle;
+                            img{
+                                width: 100%;
+                                height: 100%;
+                                // vertical-align: middle;
+                            }
+                        }
+                        .writer{
+                            height: 36px;
+                            font-family: PingFang-SC;
+                            font-size: 36px;
+                            font-weight: 500;
+                            color: #333333;
+                            line-height: 36px;
+                            // margin-left: 19px;
+                        }
+                    }
+                    .upload-r{
+                        float: right;
+                        .time{
+                            height: 20px;
+                            font-family: SourceHanSansCN;
+                            font-size: 20px;
+                            line-height: 20px;
+                            text-align: left;
+                            color: #999999;
+                        }
+                    }
+
+                }
+                .upload-mid{
+                    width: 671px;
+                    font-family: PingFang-SC;
+                    font-size: 24px;
+                    font-weight: 500;
+                    text-align: left;
+                    color: #333333;
+                    margin: 0 47px 14px 32px;
+                }
+                .upload-bott{
+                    width: 690px;
+                    height: 362px;
+                    background-color: red;
+                    border: solid 1px #f0f0f0;
+                    margin: 0 auto;
+                }
+            }
+        }
+        .look{
+            width: 750px;
+           font-size: 0;
+            border: solid 1px #42bd55;
+            margin-top: 25px;
+            line-height: 88px;
+            box-sizing: border-box;
+            span{
+                display: block;
+                background-color: #42bd55;
+            }
+            .activity{
+                width: 380px;
+                height: 88px;
+                font-family: PingFang-SC;
+                font-size: 24px;
+                font-weight: 500;
+                text-align: center;
+                color: #ffffff;
+                line-height: 88px;
+                float: left;
+            }
+            .fenxiang{
+                width: 365px;
+                height: 88px;
+                font-family: PingFang-SC;
+                font-size: 24px;
+                font-weight: 500;
+                text-align: center;
+                color: #ffffff;
+                line-height: 88px;
+                float: right;
+            }
+        }
+
+    }
